@@ -1,0 +1,4222 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Expedia API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "": {
+                "type": "object",
+                "properties": {
+                    "latitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "longitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "raw": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "epochSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "timeZoneOffsetSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localizedShortDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "diagnosticId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "diagnosticFullText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maxNightlyRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxStatusType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "surchargeTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "surchargeTotalForEntireStay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageBaseRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nightlyRateTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "discountPercent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "total": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currencyCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currencySymbol": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "surcharges": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "surchargesForEntireStay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nightlyRatesPerRoom": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nightlyRatesSize": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceToShowUsers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "depositAmountToShowUsers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceRemainingAfterDepositToShowUsers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "depositAmountExact": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceRemainingAfterDepositExact": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "strikethroughPriceToShowUsers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "strikethroughPriceWithTaxesAndFeesToShowUsers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalMandatoryFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPriceWithMandatoryFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userPriceType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceAdjustments": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkoutPriceType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airAttached": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomTypeCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ratePlanCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "showResortFeeMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "resortFeeInclusion": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dailyMandatoryFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "itineraryNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelRecordLocator": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tuid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "number": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "areaCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "category": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "countryCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "extensionNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "firstAddressLine": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "secondAddressLine": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "city": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "province": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "postalCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "countryAlpha3Code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "categoryCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "description": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsInstrumentsId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "creditCardType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nameOnCard": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expirationDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentGuestMembershipID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentGuestMembershipCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelMembershipNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "gender": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dateOfBirth": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "redressNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "membershipNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "planCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sortIndex": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localizedName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonLocalizedName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "address": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "stateProvinceCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airportCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "supplierType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelStarRating": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelStarRatingCssClassName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelGuestRating": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalRecommendations": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "percentRecommended": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalReviews": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "shortDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "locationDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "locationId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lowRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lowRateInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateCurrencyCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateCurrencySymbol": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomsLeftAtThisRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "proximityDistanceInMiles": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "proximityDistanceInKiloMeters": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "largeThumbnailUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "thumbnailUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "discountMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isDiscountRestrictedToCurrentSourceType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSameDayDRR": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isHotelAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "notAvailableMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSponsoredListing": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "clickTrackingUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "clickTrackingRedirectUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "impressionTrackingUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "omnitureAdDisplayedUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "omnitureAdClickedUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasFreeCancellation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amenities": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "distanceUnit": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "didGetBackHighestPriceFromSurvey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "highestPriceFromSurvey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isDudley": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isVipAccess": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isPaymentChoiceAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isShowEtpChoice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "allowedToDisplayRatingAsStars": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHoodId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHoodName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHoodDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cityName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "provinceName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "centroid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHoodShape": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "regionId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cityUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueSearchResultId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueNeighborhood": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "productKey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelAmenities": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelOffer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureTimeEpochSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureTimeRaw": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureTimeZoneOffsetSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalTimeEpochSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalTimeRaw": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalTimeZoneOffsetSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalAirportCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalAirportLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureAirportCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureAirportLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "onTimePercentage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "operatingAirlineName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "operatingAirlineCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "equipmentCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "equipmentDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "distance": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "distanceUnits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "stops": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "meal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sameFlightAsPreviousSegment": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "providerCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "legId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baggageFeesUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "segments": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedWholePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "basePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxesPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cabinCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "legIds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseFare": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseFarePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalFare": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalFarePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricePerPassengerCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageTotalPricePerTicket": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfTickets": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "feesPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "showFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mobileShoppingKey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seatsRemaining": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "segmentAttributes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fareType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fareName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fareNameLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isInternational": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mayChargeOBFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasBagFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasNoBagFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "country": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "searchType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "origin": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "destinations": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isChangeAllowed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isEnrouteChangeAllowed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isEnrouteRefundAllowed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isRefundable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "changePenaltyAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundPenaltyAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enrouteChangePenaltyAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enrouteRefundAllowedAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "changePenaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundPenaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enrouteChangePenaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enrouteRefundAllowedPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "summaryText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RuleToTextMap": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "RuleToUrlMap": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "feeCurrencyCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalFarePriceWithFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPointsToEarn": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isActiveRewardsMember": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rewardsMembershipTierName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "termsUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insuranceTypeId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "price": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "markupPercent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "displayPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "displayPriceType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "productId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "policyNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPriceWithoutAddOns": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "availableInsuranceAddOns": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "selectedInsuranceAddOn": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "instanceId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "content": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "featured": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "displayText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "versionID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "startWindowHours": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nightCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "percent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "timeZoneDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceBreakdown": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateChange": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "chargeableRateInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "convertedRateInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "locMsgId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationPolicy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "policy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomTypeDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomLongDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomThumbnailUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "otherInformation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonRefundable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "freeCancellationWindowDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "guaranteeRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "depositRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "immediateChargeRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currentAllotment": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promoId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promoDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "smokingPreferences": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateOccupancyPerRoom": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bedTypes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelPolicyInfoList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "valueAdds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "quotedOccupancy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "minGuestAge": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isPayLater": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "payLaterOffer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pointValue": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pointType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalLoyaltyPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyPointInfoList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "packageTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalTaxesAndFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "savings": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "couponDiscount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "packageTotalWithoutCoupon": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxesAndFeesIncluded": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bedTypeName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "smokingPreference": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialRequest": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasExtraBedAdult": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasExtraBedChild": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasExtraBedInfant": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSmokingPreferenceSelected": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isRoomOptionsAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adultCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "childAndInfantAges": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingItemId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "orderLineGUID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "reservationStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "primaryOccupantName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "occupantSelectedRoomOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "error": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "warnings": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonLocalizedhotelName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localizedHotelName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelPostalCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelStateProvinceCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelCountryCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelCity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelPhone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelLongitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelLatitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maxGuestCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInInstructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInDateForTracking": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkOutDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricePerDayBreakdown": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageDailyHotelPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "extraGuestCharges": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nightlyRates": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confirmationPending": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelConfirmationNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfRoomsBooked": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "email": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "guestFullName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "guestPhone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "guestAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isMerchant": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isGDS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isOpaque": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelInventoryTypeName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passbookUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomOccupants": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "orderNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "debugTealeafInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confirmationUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "oldProduct": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newProduct": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "productResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "jsonPriceChangeResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airAttachQualified": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "offerExpires": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "offerExpiresTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isVenere": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lowerFixedPenaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasFixedPenaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isExpediaRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationWindowDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationWindowHours": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationWindowDays": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationTimeZoneName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "outsideWindowPenaltyNightCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "outsideWindowPenaltyPercentage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonRefundableOutsideWindow": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "outsideWindowPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insideWindowPenaltyNightCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insideWindowPenaltyPercentage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonRefundableInsideWindow": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insideWindowFeePenalty": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "policyText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationText1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationText2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nonRefundableDates": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ratePlanDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfNights": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amountPaid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amountRefund": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomInfoList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricePerPerson": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "packagePricing": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "packageProductId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flight": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotel": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricing": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tealeafTransactionId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localPhoneNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phoneNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyProgram": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "locationType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airportInstructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addressLine1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addressLine2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addressLine3": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addressLine4": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addressLine5": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "provinceStateName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "locationCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rateTerm": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dailyRate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "freeMileage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mileageUnit": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "extraCostPerDistance": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "minDuration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maxDuration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lastestReturnTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mileageLimits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fuel": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "transmission": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "drive": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasAirConditioning": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "makes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "minDoors": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maxDoors": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adultCapacity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "childCapacity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "largeLuggageCapacity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "smallLuggageCapacity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vendor": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "creditCardRequiredToGuaranteeReservation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pickUpLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dropOffLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fare": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carRentalLimits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vehicleInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "includedInTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceBreakdownOfTotalDueToday": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalDueToday": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceBreakdownOfTotalDueAtPickup": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalDueAtPickup": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "grandTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pickupTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dropOffTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "detailedFare": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rulesAndRestrictionsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "m_pointValue": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "m_pointType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "m_pointDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "m_status": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "basePoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bonusPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "logoUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "viewStatementURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportPhoneInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportPhoneNumberDomestic": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportPhoneNumberDomesticAfterHours": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportPhoneNumberInternational": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupportPhoneInfoForEmail": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "termsAndConditionsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cityLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "countrySubdivisionCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "countryName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fullAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "label": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "value": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "starRating": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "photoThumbnailURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "photoThumbnail500pixURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "photoThumbnail1000pixURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localPhone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tollFreePhone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedPhoneNumbers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInPolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInStartTimePolicy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInEndTimePolicy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkOutTimePolicy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "generalRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "restrictionPolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mandatoryFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialCheckInInstructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "googleMapsLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "day": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "primaryCurrencyCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "comment": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "base": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseWithAdjustmentForDRRRateDiscount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseWithAdjustmentForDRRRateDiscountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "extraGuestChargesFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxesAndFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxesAndFeesFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mandatoryHotelFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mandatoryHotelFeesFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForDRRRateDiscount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForDRRRateDiscountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "drrRateDiscountDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForAgent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForAgentFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForCoupon": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForCouponFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForEmployeeDiscount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForEmployeeDiscountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForLoyalty": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adjustmentForLoyaltyFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalBeforeCoupon": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalBeforeCouponFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalAfterDeposits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalAfterDepositsFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalAfterDepositsPOS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalAfterDepositsPOSFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "penalty": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "penaltyFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refund": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundPOS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundPOSFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalExpediaCollectAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalExpediaCollectAmountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPOSCurrencyCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPOS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPOSFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDeposits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsPOS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsPOSFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsAfterRefund": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsAfterRefundFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsAfterRefundPOS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelDepositsAfterRefundPOSFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "_exchangeRatePOSCyToUSD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "_exchangeRateSupplierCyToUSD": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averagePricePerDay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averagePricePerDayFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageTaxPerDay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averageTaxPerDayFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceDetailsPerDay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSameRateForAllNights": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaChangeFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaChangeFeeFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelChangeWarning": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelChangeRulesIntroduction": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelChangeRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationWindowTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaquePolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lateArrivalInstructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyPointsDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "quebecResidentsIndemnityFund": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currencyDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currencyConversionDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "extraGuestPolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "occupancyPolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentPolicies": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "aarpCheckIn": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomRequestDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "accessibilityText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "couponValue": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "defaultFractionDigits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numericCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "instances": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "available": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fullName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "primaryPhone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentGuestPlanName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentFlyerPlanName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentFlyerMembershipCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "childCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "infantCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "defaultBedTypeName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "accessibilityOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "selected": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSmokingRoomAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isNonSmokingRoomAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "primaryOccupant": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "otherOccupantInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "availableRoomOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "condition": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "penaltyAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "penaltyAmountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundAmountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "uniqueID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomRatePlanDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingStatusEnum": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelCancellationId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "orderLineNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundabilityStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "availableOnAllDates": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomCancelLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomChangeLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelRefundDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalPriceDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "averagePriceDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roomPreferences": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsHotelFeesAndDepositsDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsDepositRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsCreditsGDSHotelAnyRoomCancelled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsCreditsDAHotelAnyRoomCancelled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "noFeesStaticText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isDirectAgency": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isFullyCancelled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isAnyRoomCancelled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isDepositRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isPaymentsCreditsVisible": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInDateTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkOutDateTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "startTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "endTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkInDateLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkOutDateLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingStatusText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingStatusMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "inventoryType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "inventorySource": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentModel": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "inventoryVisibility": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webCancelPathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "infositeURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelPropertyInfo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "appliedCoupons": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rooms": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sharableItemDetailURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isFreeCancellationAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentsAndCreditFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineCardFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineCardFeeFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaServiceFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaServiceFeeFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insurance": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insuranceFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subTotalFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "couponDiscountFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "unit": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "weight": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "addToTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "listOfLegsAncillaryAppliedTo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "assigned": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "requested": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seatPreference": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seatPreferenceLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ticketingStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "smokingAllowed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "legIndex": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "segmentIndex": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "programCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "programName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "typeCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "typeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "age": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "TSARedressNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passportAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passportCountryCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phoneNumbers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialAssistanceOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ticketNumbers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelledTicketNumbers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentFlyerPlans": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seats": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerIndex": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerTypeCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerTypeCodeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "taxesFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ancillaryFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fromToAirportCodes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "longName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airportMetroCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureGateDelay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalGateDelay": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "transportationType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureTerminal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureGate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalTerminal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "arrivalGate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "externalAirlineCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "operatedByAirCarrierName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confirmationAirline": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confirmationNUmber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "layoverDuration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedDuration": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cabinCodeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkinAirlineName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkinAirlineCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSeatMapAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightIdForSeatMap": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "delays": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "status": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airSegmentStatusCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airOriginDestinationReferenceIndex": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "segmentChangeMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "segmentChangeMessageLegacy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isHidden": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "state": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfStops": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineLogoURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sharableFlightLegURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "textAndURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "apiURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingFeeText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationFeeLegalText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingFeeLegalText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "faresNotGuaranteedText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelChangeIntroductionText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "feeChangeRefundIntroductionText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundabilityText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "changePenaltyText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "completePenaltyRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bargainFairUpgradesText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bargainFareStandbyText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lccPartnerConfEmailsText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "insuranceTerms": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "additionalAirlineFees": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineLiabilityLimitations": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineLiabilityLimitationsEnglishOnlyCaveatText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "quebecResidentsIndemnityFundText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ticketingAgencyText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightRulesLCCImportantMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "manageMyFlightRulesLCCImportantMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightRulesLCCPrecheckinAdvice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightRulesLCCServiceLite": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "firstCharterImportantMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "secondCharterImportantMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "splitTicketingMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airlineCheckInInstructionText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelingToUSText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "internationalPassportNoteText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "onlineCheckinReminderText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lccPartnerConfEmailsForSplitTicketText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "updateFrequentFlyerPathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confirmationNumbers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaBookingId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fareTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "farePerPassenger": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSplitTicket": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fulfillmentMethod": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "legs": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airRecordLocator": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "startDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "endDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ticketingTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webChangePathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingProvider": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasTrainTransfer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ticketingAirCarrierNames": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isLccOrCharter": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "openingDateTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "closingDateTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "shortName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ruleType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ruleName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vehicleTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fuelType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fuelTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airConditioningType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airConditioningTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "transmissionType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "transmissionTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "wheelDriveType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "wheelDriveTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "reservationGuaranteePolicy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webGetCarCancelDetailPathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webCarRulesPageURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pickupDateOpenHoursSummaryString": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dropOffDateOpenHoursSummaryString": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dropOffDateOpenHours": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carVendor": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carCategoryImageURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carCategoryLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carTypeAttributes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialEquipmentRequests": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialEquipmentRequestCaveatText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name1": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name2": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isRedeemer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nationalityCountry": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "costText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "useText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "emailAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phoneCountryCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hoursOfOperationText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hoursOfOperation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "instructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "knowBeforeYouGo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "howToRedeem": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "terms": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancellationAddendum": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "generalDisclaimer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "barcodeNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "securityCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "barcodeImageURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "validForRedemerTypeLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "validForRedemerTypeEnglish": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "supplierReferenceCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "keyForCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfPassengers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalBasePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "perPassengerBasePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalBasePriceForSorting": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localisedPassengerTypeAndCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localisedPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricePerCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localisedPriceAndPassengerCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "supplierReferenceNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityCategoryID": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityTitle": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityItemId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityItemTitle": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityItemDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityItemTitleEnglish": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityDetailsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activityLocation": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "redemptionLocations": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "placeId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelerCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelerCountDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vendorName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vendorAccountingId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vendorCustomerServiceEmail": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vendorCustomerServiceOffices": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "termsAndConditions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "voucherPrintURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "vouchers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webGetLXCancelDetailPathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "coupon": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "couponFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "obfee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "obfeeFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "savingsFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingFee": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bookingFeeFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isChangeable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isLegacy": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flights": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotels": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "activities": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cars": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promotionId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promotionCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "campaignId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cruiseCardName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fullDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rank": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "titleCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "birthDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "citizenship": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "baseAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentPending": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalAmountReceivedInd": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "remainingBalance": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "finalPaymentDueDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "invoiceNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cruiseLineName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "shipName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "departureDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "returnDate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "promotions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pricingSummary": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cruiseLineBkgConfNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "adultPassengers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "childPassengers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cabinDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerCareNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rulesAndRestrictionsLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cruiseLineWebsiteLink": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentHistory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "levelOfDetail": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "apiDetailsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "webDetailsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "updateTripNameDescPathURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripCreatedTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripUpdatedTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripCacheUpdatedTime": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "startDateLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "endDateLocalized": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "timePeriod": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rewards": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sharableDetailsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "customerSupport": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isBookedUsingForeignCurrency": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "packages": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cruises": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "externalCruises": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "trains": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "readTripError": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "m_productType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelocityType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasPageLevelError": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hasModuleLevelError": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pageLevelErrorMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "moduleLevelErrorMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "moduleName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorKey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceIncreased": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "previousTotalPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "previousTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "previousTotalFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newTotalPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newTotal": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newTotalFormatted": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "productType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "serviceErrorCode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userErrorMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceChangeResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "message": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "stackTrace": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorCategory": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "changeErrorResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "offers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errors": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "searchCities": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "obFeesDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "percentDelaysCancellationsURL": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newTrip": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passengerCategories": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "details": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "validFormsOfPayment": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rewardsPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isCustomerTitleRequired": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expediaRewards": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "availableInsuranceProducts": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "selectedInsuranceProduct": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "offer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightRules": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "oldOffer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceChangeAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "changedPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "obFeeTotalAmount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "obFeePrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "imageUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cacheKey": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airport": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "routes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalCharges": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalChargesPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mobileAirAttachQualifier": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flightDetailResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "totalHotelCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHotelList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueNeighborhoodList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorMessage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfRoomsRequested": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filterUnavailableHotelsRequested": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "availableHotelCount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "searchRegionId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opaqueHotelResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "allNeighborhoodsInSearchRegion": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filteredSearchMatchedNoHotels": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "amenityFilterOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "starOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "priceOptions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfMatches": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cityList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelTagline": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tripAdvisorRating": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "timeZoneUTCOffsetMinutes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelRoomResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "signedMapUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airAttachExpirationTimeSeconds": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelStateProvince": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelCountry": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "longDescription": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "photos": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "telesalesNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "deskTopOverrideNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelRenovationText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelMandatoryFeesText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelOverviewText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "firstHotelOverview": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelAmenitiesText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelPoliciesText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hotelFeesText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "regions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "originalHotelProductResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "newHotelProductResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "airAttachedProductResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userCoupons": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "checkoutResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "paymentFields": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cancelEnquiryInfoList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "numberOfRooms": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "accessibilityAmenities": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bigImageUrl": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "statusResponse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "refundPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "penaltyPrice": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "guidToResponseMap": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "apiVersion": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "responseType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "responseData": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expUserId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "success": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "detailedStatus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "detailedStatusMsg": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "storedCreditCards": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "homeAddress": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyMembershipNumber": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyMembershipActive": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyPointsAvailable": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyPointsPending": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyMembershipName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "membershipTierName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyTierCredits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentGuestMembership": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "isSmokingPreferred": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passports": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tsaDetails": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "specialAssistance": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "emergencyContact": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "frequentFlyerMemberships": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "associatedTravelers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "travelocityItinPath": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "loyaltyBonusPoints": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "succeeded": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "carProduct": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "oldCarProduct": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
