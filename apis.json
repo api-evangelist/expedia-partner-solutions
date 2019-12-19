@@ -1,0 +1,110 @@
+{
+    "name": "Expedia Partner Solutions",
+    "description": "Expedia Partner Solutions is the B2B partnership brand of Expedia Group. Our mission is to fuel our partners\u2019 growth through our unparalleled technology, travel supply and support services.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/195-expedia.jpg",
+    "tags": [
+        "api provider",
+        "bookings",
+        "flights",
+        "general data",
+        "have api",
+        "hotels",
+        "networks",
+        "pedestal",
+        "relative data",
+        "reservations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/expedia-partner-solutions\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Expedia API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/195-expedia.jpg",
+            "humanURL": "http:\/\/expedia.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/expedia-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/expedia-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Expedia",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/195-expedia.jpg",
+            "humanURL": "http:\/\/expedia.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/expedia.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/expedia-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.ean.com"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/expedia"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/ean-upc-codes-com"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.expedia.com\/static\/mobile\/swaggerui\/"
+        },
+        {
+            "type": "Email",
+            "url": "support@ean.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@expediapartnersolutions.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Expedia"
+        },
+        {
+            "type": "Swagger - Original",
+            "url": "https:\/\/www.expedia.com\/static\/mobile\/swaggerui\/swagger.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ExpediaEAN"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/expediapartners"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/developer.ean.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/expedia.com"
+        }
+    ]
+}
