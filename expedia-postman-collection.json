@@ -1,5 +1,5 @@
 {
-    "id": "2de331fccf8b866432744429027cde2d",
+    "id": "17229dcce1dfcbeff1ee82cce0abdfc7",
     "name": "Expedia",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3d6680e3acfbffbf549cd42fc5ef9d14",
+            "id": "6e8466b93819e4736f4e74332ddd395b",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/search",
             "description": "Mobile API Flights",
@@ -128,11 +128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "760f29fb4df9320f12d1c872a90a7d10",
+            "id": "4acc64f8bacb0b6f827436c2813879ff",
             "name": "Create A Trip",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/trip\/create",
             "description": "Mobile API Flights Create Trip Operation",
@@ -201,11 +201,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "ed7aa5a39d86d5da163cdadbccca7730",
+            "id": "bb4b3ea41f71fb464a14b0e5511d447e",
             "name": "Get the credit card fee for a trip",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/trip\/cardFee",
             "description": "This api provides an accurate credit card fee that a user would have to pay when booking a trip.",
@@ -246,11 +246,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "0f341767038644725993f2876be6861f",
+            "id": "068ecf4c3aee62f442f90a2388de709a",
             "name": "Details",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/details",
             "description": "Mobile API Flight Details Operation",
@@ -326,11 +326,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "c460379ce75bac7c3dd03e3c305cff28",
+            "id": "d8753fc1870d71e1efe15c0d6515f56d",
             "name": "Flight Image",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/image",
             "description": "Mobile API Flight Image Operation",
@@ -371,11 +371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "83a39d11b972e6d0dc9293d5bf634fc7",
+            "id": "1e8df1f4bd1683d3a0d9f437dc96b7f1",
             "name": "Mobile Image",
             "url": "httpsapim.expedia.comx\/\/api\/mobile\/image",
             "description": "Mobile API Flight Mobile Image Operation",
@@ -423,11 +423,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "43acca377cd4b0aaa60295f077c85c53",
+            "id": "2fa330ec8a325b4ca39ba9ebc55f8b56",
             "name": "Airport Dropdown",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/airportDropDown",
             "description": "Mobile API Flight Airport Dropdown Operation",
@@ -446,11 +446,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "6c03fcd8b96ac1641feba03f312b39f4",
+            "id": "4452cf7f3a876b98ddd161f5b337a78c",
             "name": "Mobile Flight Checkout",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/checkout",
             "description": "Checkout a previously created flight trip, requiring payment fields, the trip id, and the passenger fields",
@@ -932,11 +932,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "1707c099beac8c97bed61c4ef43f8b4a",
+            "id": "3c6bbca6c2c68ccdca9b88faa68f4c17",
             "name": "Create a trip for partner",
             "url": "httpsapim.expedia.comx\/\/m\/api\/flight\/trip\/V2\/create",
             "description": "Creates a flight trip, passing a product key and all required fields.",
@@ -998,11 +998,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "9d6b12008264c1797c280927d9bb8586",
+            "id": "0952fe56ad7fdf33a3a4430e5efd59be",
             "name": "Fare Rules for the trip",
             "url": "httpsapim.expedia.comx\/\/api\/flight\/fareRules\/{tripId}",
             "description": "Air Fare Rule information of the trip created",
@@ -1029,11 +1029,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "9fda70905b40b03e4840c1f6bed8c441",
+            "id": "4a1d0e44db7715f090e7478dbe56c0bb",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/search",
             "description": "Mobile API Hotels Search\n\nThere are multiple successful responses for this operation.\nSee the examples below for more information.",
@@ -1249,11 +1249,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "36c88c297548bbfda65babb14af2a821",
+            "id": "a473641bd320bcb76e4ee0389d22d09b",
             "name": "Get Offers",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/offers",
             "description": "Mobile API Hotels Offers",
@@ -1329,11 +1329,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "eb042303d5d36ce0f1ba650a50e7435a",
+            "id": "3673b9b1a6d220442e722b61a53ca620",
             "name": "Get Offers",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/offers\/v3",
             "description": "Mobile API Hotels Offers",
@@ -1409,11 +1409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "71dd7be9406368d18efaeaa24124ad2f",
+            "id": "7abbc8c839de0bfef232364cc62b09da",
             "name": "Create A Trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/create",
             "description": "Mobile API Hotels Create Trip",
@@ -1468,11 +1468,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "ffdd0c3f89316e06e01175d8b942a449",
+            "id": "1912b3194dddfb639c0ae4205c26d39c",
             "name": "Checkout",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/checkout",
             "description": "Mobile API Hotels Checkout",
@@ -1758,11 +1758,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "563efccd954f84fc16373508da50a212",
+            "id": "c609a08c99dbeb82c2232cbb09a1a6f9",
             "name": "Hotel Checkout With JSON Request Body",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/V2\/checkout",
             "description": "Mobile API Hotel Checkout V2",
@@ -1789,11 +1789,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "d91e1204389813e8b6e8bb96cd62feba",
+            "id": "66740e5dac14503fda80a4cac658f40c",
             "name": "Get Required Checkout Fields",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/checkoutfields",
             "description": "Service that returns the fields that are required or optional for a given point of sale.",
@@ -1812,11 +1812,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "e22a8496062e59a3f9a54fd39797b0cf",
+            "id": "f99110cf724c56f7eed557d33d9d9993",
             "name": "Cancel Enquiry",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/cancelEnquiry",
             "description": "Cancel Enquiry for hotel, pass in itinerary id, email address of trip owner.",
@@ -1850,11 +1850,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "22e52d2ce5caee7fc57336b682bb56f4",
+            "id": "a6cc65be999df8dc0c28a1f8ee739adf",
             "name": "Cancel Enquiry",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/V2\/cancelEnquiry",
             "description": "Cancel Enquiry for hotel, pass in itinerary id, email address of trip owner.",
@@ -1895,11 +1895,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "57bdce0b51e15dcc1b3c7eb79648c3af",
+            "id": "114da18dc35bcd15f9acf07363314ac6",
             "name": "Product",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/product",
             "description": "Hotel Product",
@@ -1954,11 +1954,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "d51aa99dcbd5088ccbebae50ed8e5ca3",
+            "id": "23eabc5ddd44b1439ea85bc7786398ae",
             "name": "Info",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/info",
             "description": "Hotel Information",
@@ -1985,11 +1985,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "393cff97a1eb8fcc7a64cfa2d4102a53",
+            "id": "9a00537d4840a0b129db8766b5bf9345",
             "name": "Cancel Trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/trip\/cancel",
             "description": "Hotel Trip Cancellation",
@@ -2030,11 +2030,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "db41a67066cb75cafdbc3d749495b83d",
+            "id": "b8d842f53b9f4945a99b6de7daab9fdd",
             "name": "Cancel Room",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/rooms\/cancel",
             "description": "Hotel Room Cancellation",
@@ -2075,11 +2075,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "82871804162848939b229f3add369328",
+            "id": "c6802bb28419678339c9398c941ac0f2",
             "name": "Points Conversion",
             "url": "httpsapim.expedia.comx\/\/m\/api\/trip\/calculatePoints",
             "description": "Converts from a given currency amount to the equivalent in rewards points.\n[Note: Works only if the User is signed-in and is the owner of the trip.]",
@@ -2127,11 +2127,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "cf9566bbe576d4378ea132214e68a698",
+            "id": "956664554afdd53341e7aad4d7a0d28c",
             "name": "Get Packages",
             "url": "httpsapim.expedia.comx\/\/getpackages\/v1",
             "description": "Gets packages and supports changed flights and hotels for flexible shopping.",
@@ -2256,11 +2256,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "440a6fc353540ce1574e2f32ed71a6f6",
+            "id": "89bbda7ec3666644de48568072f48202",
             "name": "Get Package Offers",
             "url": "httpsapim.expedia.comx\/\/api\/packages\/hotelOffers",
             "description": "Mobile API Packages",
@@ -2336,11 +2336,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "f39c76613adf0b1d3be0a16b40533255",
+            "id": "7601486cba2cc898573193b140978620",
             "name": "Create A Trip",
             "url": "httpsapim.expedia.comx\/\/api\/packages\/createTrip",
             "description": "Mobile API Packages Create Trip operation",
@@ -2409,11 +2409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "53f1638e6b0328ffbf9dd9dbd8c03c99",
+            "id": "2ccec20f56c64633da99b0f6fea8b342",
             "name": "Checkout",
             "url": "httpsapim.expedia.comx\/\/api\/packages\/checkout",
             "description": "Mobile API Packages Checkout",
@@ -2699,11 +2699,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "7ddd85a4b5ff133e9a1ce11523a11bb6",
+            "id": "af36fb1b4aa974f2c568b78174247113",
             "name": "Apply Coupon",
             "url": "httpsapim.expedia.comx\/\/api\/m\/trip\/coupon",
             "description": "Mobile API Packages Apply Coupon",
@@ -2751,11 +2751,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "f8b4ed14075b9173da0d8923031e8422",
+            "id": "1735339d40ba81aa97dd7ca64667e6e7",
             "name": "Remove Coupon",
             "url": "httpsapim.expedia.comx\/\/api\/m\/trip\/remove\/coupon",
             "description": "Mobile API Packages Remove Coupon",
@@ -2782,11 +2782,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "44fa0a85278eec9c0586f046a609b503",
+            "id": "d9ac490265d30eac17ba8804ad96c3cf",
             "name": "Get Trips",
             "url": "httpsapim.expedia.comx\/\/api\/trips",
             "description": "Mobile API Trips",
@@ -2841,11 +2841,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "b76a528900066211d0155ff840a75b10",
+            "id": "56cce76c898dbd8079bb0af8f9fd5d85",
             "name": "Trips by tripId",
             "url": "httpsapim.expedia.comx\/\/api\/trips\/{tripId}",
             "description": "Mobile API Trips",
@@ -2914,11 +2914,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "f7dfea315cbf01d0ebc48685212c09b7",
+            "id": "648058df9f58f69e167db0ca4c2c718a",
             "name": "Update Trip Name and Description",
             "url": "httpsapim.expedia.comx\/\/api\/trips\/{tripId}\/updateTripNameDescription",
             "description": "Mobile API Trips update trip name and description operation",
@@ -2959,11 +2959,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "8190ed57dd7d3de0af197d93d5f3092e",
+            "id": "5a74b58c226af63efdd51eb153a9a0fa",
             "name": "(Internal Only)",
             "url": "httpsapim.expedia.comx\/\/api\/users\/{userId}\/trips\/{tripId}",
             "description": "(Internal Only) Retrieve trip (tripId) for given customer (userId)",
@@ -3039,11 +3039,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "fbe670da942a85df6510e3a560f31dd8",
+            "id": "f6e130c1a18e564827450b7fd16c9d03",
             "name": "(Internal Only)",
             "url": "httpsapim.expedia.comx\/\/api\/users\/{userId}\/trips",
             "description": "(Internal Only) Returns array of trips for passed userId",
@@ -3070,11 +3070,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "21a541c780fc5cef19f505b52bc13a78",
+            "id": "fe03e00e450fe2b633c8590b4395952e",
             "name": "Get the credit card fee for a trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/rails\/trip\/cardFee",
             "description": "This api provides an accurate credit card fee that a user would have to pay when booking a trip.",
@@ -3122,11 +3122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "db5177742680397d0f777d7b65e8d92b",
+            "id": "7f9413cd1e7b6232ddb13390af481be1",
             "name": "Rails Checkout With JSON Request Body",
             "url": "httpsapim.expedia.comx\/\/m\/api\/rails\/trip\/checkout",
             "description": "Mobile API Rails Checkout",
@@ -3153,11 +3153,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "4a3a126795cbf91b6b4ac22ef1c5e095",
+            "id": "53f66b39da1375cf06541890683646d5",
             "name": "User Sign-In",
             "url": "httpsapim.expedia.comx\/\/api\/user\/sign-in",
             "description": "Mobile API User Sign-In",
@@ -3247,11 +3247,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "e722cded35ab1139c94a050d5c47001b",
+            "id": "f809f91e3f7c2e9ce34a5c1b0c0e36ae",
             "name": "Profile",
             "url": "httpsapim.expedia.comx\/\/api\/user\/profile",
             "description": "Mobile API User Profile",
@@ -3292,11 +3292,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "9ff10e4f1128569a2472ec7671e6e970",
+            "id": "7f45e7e48a7228684a3e1dfdbf03db80",
             "name": "Create User",
             "url": "httpsapim.expedia.comx\/\/api\/user\/create",
             "description": "Mobile API User Create",
@@ -3365,11 +3365,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "17b7018574be96c811cd8bf7a7111e3f",
+            "id": "01d542164e76be32f088e48dc90c7d74",
             "name": "Update",
             "url": "httpsapim.expedia.comx\/\/api\/user\/update-traveler",
             "description": "Mobile API User Update Traveler",
@@ -3508,11 +3508,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "5fd24f65df0d6160cc0e43474c1dc6ad",
+            "id": "11543a370913efcef184e1a9c3859e7f",
             "name": "Associate User To Trip",
             "url": "httpsapim.expedia.comx\/\/api\/user\/associateUserToTrip",
             "description": "Mobile API User Associate To Trip",
@@ -3539,11 +3539,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "cb3e2a422088710058cd93c1f8ef5ea4",
+            "id": "385a4a86c83e49f7b5ae00922d04746e",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/search\/airport",
             "description": "Mobile API Cars",
@@ -3591,11 +3591,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "68701a4bfe2f9b8d19c7c5e31969f455",
+            "id": "5d6f536a57a602f8738471856fcba54f",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/search\/location",
             "description": "Mobile API Cars",
@@ -3657,11 +3657,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "2f421f37db71a8a0dd84bc470dee1f28",
+            "id": "89ae560a2ca370920a4dc4b67f458f4a",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/search",
             "description": "Mobile API Cars",
@@ -3751,11 +3751,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "07a6400011e0a07cb7b3ec64e2e79b1a",
+            "id": "f84bc32fb104d9edeb3eab0acdbceecc",
             "name": "Create A Trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/trip\/create",
             "description": "Mobile API Cars Create Trip",
@@ -3796,11 +3796,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "c7078c5959a4f878135b92894434e447",
+            "id": "a2514ab37466337992e4970140ae87a2",
             "name": "Checkout",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/trip\/checkout",
             "description": "Mobile API Cars Checkout",
@@ -4065,11 +4065,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "ca83fd27c4918dd4b5ad46bb9ca5380c",
+            "id": "c7bf8d2bcf3431582f69c8dfc25bedb0",
             "name": "Cancel Trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/cars\/trip\/cancel",
             "description": "car Trip Cancellation",
@@ -4103,11 +4103,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "3cb85725f3b450b03287ca763d08ae57",
+            "id": "13ecad47387658ee4b75f9fe0914cfe0",
             "name": "Search",
             "url": "httpsapim.expedia.comx\/\/lx\/api\/search",
             "description": "LX Shop Search",
@@ -4155,11 +4155,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "987c1b0112f72db773de414ac4ec46bb",
+            "id": "6043df9f81953dc992206bca0b231f25",
             "name": "Infosite\/Details",
             "url": "httpsapim.expedia.comx\/\/lx\/api\/activity",
             "description": "Lx Details Search",
@@ -4207,11 +4207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "067098fc54f3511a2462da1b6968241d",
+            "id": "778fb7c635fdcd3b402d62edcba9743b",
             "name": "Create A Trip",
             "url": "httpsapim.expedia.comx\/\/m\/api\/lx\/trip\/create",
             "description": "Mobile API Lx Create Trip",
@@ -4238,11 +4238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "c7783706a57d732d05ccebebe9b0fabe",
+            "id": "436e600b6a5ce1365f2dd6f5b668838f",
             "name": "Checkout",
             "url": "httpsapim.expedia.comx\/\/m\/api\/lx\/trip\/checkout",
             "description": "Mobile API Lx Checkout",
@@ -4479,11 +4479,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         },
         {
-            "id": "bcbeec69d1c6bb1512a62bb17376b174",
+            "id": "aa54becff2fe0ccd484b34a6f56d1723",
             "name": "LPAS Search",
             "url": "httpsapim.expedia.comx\/\/m\/api\/hotel\/search\/v3",
             "description": "Mobile API Hotel Search using LPAS",
@@ -4713,7 +4713,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2de331fccf8b866432744429027cde2d",
+            "collectionId": "17229dcce1dfcbeff1ee82cce0abdfc7",
             "rawModeData": ""
         }
     ]
